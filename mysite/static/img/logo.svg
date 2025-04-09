@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60">
+  <!-- Background rectangle with rounded corners (pink) -->
+  <rect x="10" y="10" width="180" height="40" rx="8" fill="#FF69B4" />
+  
+  <!-- Main site name text -->
+  <text x="100" y="36" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">MY WEBSITE</text>
+</svg>
