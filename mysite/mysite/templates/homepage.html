@@ -1,0 +1,20 @@
+{% extends "base_layout.html" %}
+{% block title %}Homepage{% endblock title %}
+{% block content %}
+<h1>{{ header }}</h1>
+<div class="homepage-message">
+    <p>{{ message }}</p>
+</div>
+<div class="about-site">
+    <p>Этот сайт посвящен современным технологиям, программированию и кибербезопасности. Здесь вы найдете:</p>
+    <ul class="about-site-list">
+        <li class="about-site-list-item">1. Актуальные статьи о разработке программного обеспечения</li>
+        <li class="about-site-list-item">2. Обзоры инструментов и сред разработки</li>
+        <li class="about-site-list-item">3. Материалы по архитектуре информационных систем</li>
+        <li class="about-site-list-item">4. Исследования в области искусственного интеллекта и нейросетей</li>
+        <li class="about-site-list-item">5. Анализ современных угроз кибербезопасности</li>
+    </ul>
+    <p>Наш ресурс будет особенно полезен IT-специалистам, разработчикам и всем, кто интересуется цифровыми технологиями.</p>
+    <p>В разделе <a href="/articles">Articles</a> вы можете ознакомиться с последними публикациями.</p>
+</div>
+{% endblock content %}

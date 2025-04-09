@@ -1,0 +1,57 @@
+*,
+*::before *::after {
+  box-sizing: border-box;
+}
+
+body, p, h1, h2, h3, h4, h5, ul {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+.body {
+  font-size: 16px;
+  line-height: 1.5;
+}
+h1 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+.articles {
+    display: flex;
+    flex-direction: column;
+}
+.article__item {
+    padding: 15px;
+}
+.article__item h2 {
+    margin-bottom: 10px;
+}
+
+.article__item a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #515ed5;
+}
+
+.article__item a:hover {
+    text-decoration: underline;
+}
+
+.article__item p {
+    color: #535252;
+}
+
+.article__item time {
+    font-size: 12px;
+    color: #a6a3a3;
+}
+
+.navigation img {
+    width: 80px;
+    height: 80px;
+}
+
